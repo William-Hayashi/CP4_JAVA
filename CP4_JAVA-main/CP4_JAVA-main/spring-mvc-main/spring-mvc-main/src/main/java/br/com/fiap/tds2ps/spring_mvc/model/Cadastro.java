@@ -1,12 +1,9 @@
 package br.com.fiap.tds2ps.spring_mvc.model;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
-
+@Table(name = "CADASTRO")
 @Entity
 public class Cadastro {
 
