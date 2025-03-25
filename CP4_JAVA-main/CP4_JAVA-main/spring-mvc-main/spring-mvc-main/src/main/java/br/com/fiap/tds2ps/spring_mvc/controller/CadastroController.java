@@ -24,10 +24,10 @@ public class CadastroController {
     }
 
     // Rota para mostrar o formulário de cadastro
-    @GetMapping("/showCadastroForm")
+    @GetMapping("/Novo")
     public String showCadastroForm(Model model) {
         model.addAttribute("cadastro", new Cadastro());
-        return "formCadastro";  // Nome da view para o formulário de cadastro
+        return "new_cadastro";
     }
 
     // Rota para salvar o cadastro
@@ -42,7 +42,7 @@ public class CadastroController {
     public String showUpdateForm(@PathVariable Long id, Model model) {
         Cadastro cadastro = cadastroService.findById(id);
         model.addAttribute("cadastro", cadastro);
-        return "formCadastro";  // Nome da view para o formulário de edição
+        return "edit_cadastro";  // Nome da view para o formulário de edição
     }
 
     // Rota para atualizar o cadastro
