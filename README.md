@@ -8,8 +8,8 @@ Este repositório foi criado para o projeto do grupo CP4, da disciplina de Java.
    - **Matrícula:** [RM552659]
    - **Função:** [Criação das Rotas, páginas html e inserção de mais controllers]
 
-### 2. **[Nome do Integrante 2]**
-   - **Matrícula:** [Número de matrícula]
+### 2. **[Renan Bezerra]**
+   - **Matrícula:** [RM553228]
    - **Função:** [Lógica do CRUD]
 
 
